@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="logo.png" alt="Logo">
+      <h1>Welcome Page</h1>
+    </div>
+    <div class="content">
+      <h2>Sign in to continue access</h2>
+      <form action="login.php" method="post">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+        <input type="submit" value="Sign In">
+      </form>
+      <p>Don't have an account? <a href="register.php">Sign up here</a>.</p>
+    </div>
+    <div class="footer">
+      <p>Copyright &copy; 2023 Your Site</p>
+    </div>
+  </div>
+  <style>
+    body {
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #666;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.content {
+  padding: 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #999;
+  padding: 20px;
+}
+
+/* Custom colors */
+
+.header {
+  background-color: #66aaff;
+}
+
+.content {
+  background-color: #aaffaa;
+}
+
+input[type="submit"] {
+  background-color: #99ccff;
+}
+  </style>
+</body>
+</html>
